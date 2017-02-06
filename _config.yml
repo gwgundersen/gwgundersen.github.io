@@ -1,3 +1,9 @@
 # Dependencies
 markdown:         kramdown
 highlighter:      rouge
+
+# Courses
+collections:
+  orf309:
+    output: true
+    output_ext: .html
