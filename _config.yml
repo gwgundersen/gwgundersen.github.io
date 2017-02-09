@@ -7,3 +7,9 @@ collections:
   orf309:
     output: true
     output_ext: .html
+  cos424:
+    output: true
+    output_ext: .html
+  orf525:
+    output: true
+    output_ext: .html
