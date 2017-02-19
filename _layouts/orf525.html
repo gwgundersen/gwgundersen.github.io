@@ -1,0 +1,26 @@
+<link href='/css/markdown.css' rel='stylesheet'/>
+<link href='/css/main.css' rel='stylesheet'/>
+<script type='text/x-mathjax-config'>
+MathJax.Hub.Config({
+  jax: ['input/TeX', 'output/HTML-CSS'],
+  tex2jax: {
+    inlineMath: [ ['$', '$'] ],
+    displayMath: [ ['$$', '$$']],
+    processEscapes: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+  },
+  TeX: {
+    Macros: {
+      vec: ["{\\boldsymbol{\\mathbf{#1}}}", 1]
+    }
+  },
+  messageStyle: 'none',
+  'HTML-CSS': { preferredFont: 'TeX', availableFonts: ['STIX','TeX'] }
+});
+</script>
+<script src='//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML' type='text/javascript'></script>
+
+<div class='nav'>ORF 525 - {{ page.title }}</div>
+<div class='markdown-body'>
+    {{ content }}
+</div>
