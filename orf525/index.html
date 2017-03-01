@@ -6,7 +6,7 @@ title: ORF 525
 <ul>
     {% for lecture in site.orf525 %}
         <li>
-            <a href="{{ lecture.url }}">{{ lecture.title }}</a>
+            <a href="{{ lecture.url }}">Lecture {{ lecture.number}}: {{ lecture.title }}</a>
         </li>
     {% endfor %}
 </ul>
