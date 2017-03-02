@@ -22,7 +22,7 @@ MathJax.Hub.Config({
 </script>
 <script src='//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML' type='text/javascript'></script>
 
-<div class='nav'>ORF 525 - {{ page.title }}</div>
+<div class='nav'>ORF 525 - {{ page.title }} - {{ page.date | date_to_long_string }}</div>
 <div class='markdown-body'>
     {{ content }}
 </div>
