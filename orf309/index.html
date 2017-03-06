@@ -3,11 +3,13 @@ title: ORF 309
 ---
 
 <h1>ORF 309 - Probability and Stochastic Systems</h1>
-<ul>
+<table>
     {% for lecture in site.orf309 %}
-        <li>
-            <a href="{{ lecture.url }}">Lecture {{ lecture.number}}: {{ lecture.title }} ({{ lecture.date|date_to_long_string }})</a>
-        </li>
+        <tr>
+        	<td>{{ lecture.number}}</td>
+        	<td><a href="{{ lecture.url }}">{{ lecture.title }}</a></td>
+        	<td>{{ lecture.date|date_to_long_string }}</td>
+        </tr>
     {% endfor %}
-</ul>
+</table>
 
