@@ -9,6 +9,12 @@ MathJax.Hub.Config({
     processEscapes: true,
     skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
   },
+  TeX: {
+    Macros: {
+      coloneqq: ["{\\mathrel{\\vcenter{:}}=}"],
+      independent: ["{\\perp}"]
+    }
+  },
   messageStyle: 'none',
   'HTML-CSS': { preferredFont: 'TeX', availableFonts: ['STIX','TeX'] }
 });
